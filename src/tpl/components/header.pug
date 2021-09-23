@@ -1,0 +1,19 @@
+include btn
+.header.header-mob
+    .block
+        a.header__logo(href='/')
+        a.header__open.js-header-toggle(href='#')
+.header.header-desk
+    a.header__close.js-header-toggle(href='#')
+    .block
+        .header__top
+            a.header__logo(href='/')
+            a.header__email(href='mailto:info@g-method.ru') info@g-method.ru
+            a.header__phone(href='tel:+78123345887') +7 (812) 334-58-87
+            a.header__phone(href='tel:+79643345888') +7 (964) 334-58-88
+            +btn(true)
+        .header__menu
+            ul.menu__list
+                each entry in [['services', 'Услуги'],['why', 'Преимущества'],['about', 'О нас'],['equipment', 'Оборудование'],['steps', 'Этапы работ'],['works', 'Примеры работ'],['reviews', 'Отзывы'],['contacts', 'Контакты']]
+                    li.menu__entry
+                        a.menu__lnk(href='#' + entry[0])=entry[1]

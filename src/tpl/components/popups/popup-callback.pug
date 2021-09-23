@@ -1,0 +1,10 @@
+include popup
++popup('popup-callback')
+    .loading.loading-default
+        .loading__inner
+    .popup__title
+        span Оставьте заявку
+        |  прямо сейчас
+    p Наш менеджер свяжется с вами в самое ближайшее время
+    form.formsController(data-url='/')
+        include ../form

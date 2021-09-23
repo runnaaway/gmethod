@@ -1,0 +1,33 @@
+@import '~normalize.css/normalize.css';
+@import "~slick-carousel/slick/slick.css";
+@import "~dropzone/dist/dropzone.css";
+@import "~lightbox2/dist/css/lightbox.min.css";
+
+.lb-dataContainer {
+	position: absolute;
+	top: -46px;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.lb-nav a {
+	position: relative;
+	opacity: 1 !important;
+}
+
+.lb-nav a.lb-next {
+	right: -70px;
+
+	@media(max-width: 767px) {
+		right: 0;
+	}
+}
+
+.lb-nav a.lb-prev {
+	left: -70px;
+
+	@media(max-width: 767px) {
+		left: 0;
+	}
+}

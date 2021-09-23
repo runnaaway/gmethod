@@ -1,0 +1,36 @@
+.form__outer
+    .form__container
+        label.form__label.form__label_sm
+            .form__caption Ваше имя
+                span.red *
+            input.form__input(type='text' name='name' required)
+        label.form__label.form__label_sm
+            .form__caption E-mail
+                span.red *
+            input.form__input(type='email' name='email' required)
+        label.form__label.form__label_sm
+            .form__caption Ваш телефон
+                span.red *
+            input.form__input(type='tel' name='phone' required)
+        label.form__label.form__label_lg
+            .form__caption Добавить описание
+            textarea.form__input.form__input_textarea(placeholder='Введите сообщение' name='message')
+        label.form__label.form__label_md.form__label_file
+            .form__caption Добавить файлы
+                .form__hint максимальный размер одного файла 5 МБ
+            input(type='file' name='doc')
+            .file__container
+                span Кликните для загрузки
+        label.form__label.form__label_md.form__label_radio
+            .form__caption Как нам лучше связаться с вами?
+            .radio__container
+                label.radio__custom
+                    input.custom__input(type='radio' name='connect' value='phone')
+                    span.custom__title По телефону
+                label.radio__custom
+                    input.custom__input(type='radio' name='connect' value='email')
+                    span.custom__title По email
+    .form__hint Нажимая на кнопку “Отправить заявку”, вы соглашаетесь на&nbsp;
+        a(href='/k/policy.pdf' target='_blank') обработку персональных данных
+    .form__error
+    button.btn.btn_sm.btn_blue.fc-submit(type='submit') Отправить заявку

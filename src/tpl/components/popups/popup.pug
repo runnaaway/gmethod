@@ -1,0 +1,10 @@
+mixin popup(popupID)
+    .popup.hideover(id=popupID)
+        .popup-overlay
+            table
+                tbody
+                    tr
+                        td
+                            .popup-container
+                                a.popup__close(href='#')
+                                block

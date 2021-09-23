@@ -1,0 +1,20 @@
+.footer
+    .block
+        .footer__top
+            a.footer__logo(href='/')
+            a.footer__email(href='mailto:info@g-method.ru') info@g-method.ru
+            a.footer__phone(href='tel:+78123345887') +7 (812) 334-58-87
+            a.footer__phone(href='tel:+79643345888') +7 (964) 334-58-88
+            +btn(true)
+        .footer__menu
+            ul.menu__list
+                each entry in [['services', 'Услуги'],['why', 'Преимущества'],['about', 'О нас'],['equipment', 'Оборудование'],['steps', 'Этапы работ'],['works', 'Примеры работ'],['reviews', 'Отзывы'],['contacts', 'Контакты']]
+                    li.menu__entry
+                        a.menu__lnk(href='#' + entry[0])=entry[1]
+        .footer__bottom
+            .footer__copy © 2021 “G-METHOD” <br>
+            .footer__legal
+                p
+                    a(href='/k/policy.pdf' target='_blank') Обработка персональных данных.
+                    a(href='/k/cookie.html' target='_blank') Политика использования файлов cookie
+                p Все цены и информация, представленная на сайте, не являются публичной офертой

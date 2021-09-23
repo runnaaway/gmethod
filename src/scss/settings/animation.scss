@@ -1,0 +1,34 @@
+.header {
+	opacity: 0;
+	transition: all 200ms linear;
+	transition-delay: .2s;
+
+	&.vis {
+		opacity: 1;
+	}
+}
+
+.main {
+	.main__title,
+	.btn {
+		opacity: 0;
+		transform: translateY(50px);
+		transition: opacity 400ms linear, transform 400ms linear;
+	}
+
+	.main__title {
+		transition-delay: .4s;
+	}
+
+	.btn {
+		transition-delay: .6s;
+	}
+
+	&.vis {
+		.main__title,
+		.btn {
+			opacity: 1;
+			transform: translateY(0);
+		}
+	}
+}
