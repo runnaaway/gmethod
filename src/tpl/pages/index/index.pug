@@ -84,12 +84,12 @@ block content
             h2.main-title Услуги компании
             p.services__desc Вам не придется заказывать отдельные услуги в разных компаниях. Все свои идеи вы сможете реализовать прямо здесь, потому что мы выполняем полностью все виды услуг, которые могут понадобиться клиенту. Расчет стоимости услуг производится по конструкторской документации, предоставленной заказчиком.
             ul.services__list
-                each entry, index in [['Лазерная <br>резка металла', '/k/price/lazernaya_rezka.html'], ['Лазерная 3D <br>резка труб', '/k/price/lazernaya_3d_rezka.html'], ['Гидроабразивная <br>резка', '/k/price/gidroabraziv.html'], ['Координатно-пробивные работы', '/k/price/koordinat.html'], ['Гибка металла', '/k/price/gibka.html'], ['Сварка', '/k/price/svarka.html'], ['Приварка <br>крепежа', '/k/price/privarka.html'], ['Запрессовка <br>крепежа и метизов', '/k/price/zapressovka.html'], ['Токарные <br>работы', '/k/price/tokarnye.html'],]
+                each entry, index in [['Лазерная <br>резка металла', '/price/lazernaya_rezka.html'], ['Лазерная 3D <br>резка труб', '/price/lazernaya_3d_rezka.html'], ['Гидроабразивная <br>резка', '/price/gidroabraziv.html'], ['Координатно-пробивные работы', '/price/koordinat.html'], ['Гибка металла', '/price/gibka.html'], ['Сварка', '/price/svarka.html'], ['Приварка <br>крепежа', '/price/privarka.html'], ['Запрессовка <br>крепежа и метизов', '/price/zapressovka.html'], ['Токарные <br>работы', '/price/tokarnye.html'],]
                     li.services__entry
                         .entry__img
                             img(src='/img/service_0' + (index + 1) + '.svg' alt='')
                         a(href='#' data-url=entry[1])!=entry[0]
-                each entry, index in [['Фрезерные <br>работы', '/k/price/frezernye.html'], ['Обработка <br>не металлических материалов', '/k/price/nemetall.html'], ['Слесарные работы', '/k/price/slesarnye.html'], ['Нанесение надписей, гравировка', '/k/price/gravirovka.html'], ['Порошковая <br>окраска металла', '/k/price/okraska.html'], ['Нанесение гальванических покрытий', '/k/price/galvanika.html'], ['Сборка металлоизделий', '/k/price/sborka.html']]
+                each entry, index in [['Фрезерные <br>работы', '/price/frezernye.html'], ['Обработка <br>не металлических материалов', '/price/nemetall.html'], ['Слесарные работы', '/price/slesarnye.html'], ['Нанесение надписей, гравировка', '/price/gravirovka.html'], ['Порошковая <br>окраска металла', '/price/okraska.html'], ['Нанесение гальванических покрытий', '/price/galvanika.html'], ['Сборка металлоизделий', '/price/sborka.html']]
                     li.services__entry
                         .entry__img
                             img(src='img/service_' + (index + 10) + '.svg' alt='')

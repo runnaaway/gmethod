@@ -319,7 +319,7 @@ function YMapsInit() {
     contactsPlacemark = new ymaps.Placemark([60.061201, 30.290212], {
         hintContent: ''
     }, {
-        iconImageHref: '/k/images/pin.svg',
+        iconImageHref: '/images/pin.svg',
         iconLayout: 'default#image',
         iconImageSize: [71, 72],
         iconImageOffset: [-20, -72]
