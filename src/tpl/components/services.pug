@@ -1,0 +1,1397 @@
+-
+    var services = [{
+        title: 'Лазерная <br>резка металла',
+        content: '<div class="price">\n' +
+                '\t<div class="price__desc" style="background-image: url(/img/bg_lazernaya_rezka.svg)">\n' +
+                '\t\t<div class="block block_padding">\n' +
+                '\t\t\t<div class="price__title">Лазерная резка металла</div>\n' +
+                '\t\t\t<p><b>Лазерная резка</b> – высокотехнологичный процесс резки металла, мощный сфокусированный на поверхности листа лазерный луч позволяет с высочайшей точностью и в кротчайшие сроки резать металл.</p>\n' +
+                '\t\t\t<div class="price__subtitle">Описание услуги</div>\n' +
+                '\t\t\t<p>Услуга выполняется на новых современных станках лазерного раскроя от производителя TRUMPF способных резать металл толщиной от 0,35 мм до 20 мм.</p>\n' +
+                '\t\t\t<p>Современный станочный парк и команда профессионалов нашего предприятия имеют возможность качественно, быстро и по доступным ценам выполнять любые объёмы работ по лазерной резке металла.</p>\n' +
+                '\t\t\t<div class="price__price"><strong>Цена:</strong> от 5 руб./метр</div>\n' +
+                '\t\t\t<div class="desc__bottom">\n' +
+                '\t\t\t\t<button class="btn btn_sm btn_white js-callback">Оставить заявку</button>\n' +
+                '\t\t\t\t<a class="price__download" href="/price/price_lazernaya_rezka.pdf" download>Скачать прайс на услугу</a>\n' +
+                '\t\t\t</div>\n' +
+                '\t\t</div>\n' +
+                '\t</div>\n' +
+                '\t<div class="price__lists">\n' +
+                '\t\t<div class="block block_padding">\n' +
+                '\t\t\t<div class="price__entry">\n' +
+                '\t\t\t\t<div class="price__title">Прайс лист на услуги лазерной резки стали</div>\n' +
+                '\t\t\t\t<div class="price__subtitle">Цена, руб./м.</div>\n' +
+                '\t\t\t\t<div class="price__tbl">\n' +
+                '\t\t\t\t\t<table>\n' +
+                '\t\t\t\t\t\t<thead>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<th>Толщина, мм.</th>\n' +
+                '\t\t\t\t\t\t\t<th>Чёрная сталь</th>\n' +
+                '\t\t\t\t\t\t\t<th>Оцинкованная сталь</th>\n' +
+                '\t\t\t\t\t\t\t<th>Нержавеющая сталь</th>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t</thead>\n' +
+                '\t\t\t\t\t\t<tbody>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>1</td>\n' +
+                '\t\t\t\t\t\t\t<td>5.00</td>\n' +
+                '\t\t\t\t\t\t\t<td>5.00</td>\n' +
+                '\t\t\t\t\t\t\t<td>12.50</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>1.5</td>\n' +
+                '\t\t\t\t\t\t\t<td>6.35</td>\n' +
+                '\t\t\t\t\t\t\t<td>6.35</td>\n' +
+                '\t\t\t\t\t\t\t<td>15.62</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>2</td>\n' +
+                '\t\t\t\t\t\t\t<td>9.40</td>\n' +
+                '\t\t\t\t\t\t\t<td>9.40</td>\n' +
+                '\t\t\t\t\t\t\t<td>18.51</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>2.5</td>\n' +
+                '\t\t\t\t\t\t\t<td>16.90</td>\n' +
+                '\t\t\t\t\t\t\t<td>19.8</td>\n' +
+                '\t\t\t\t\t\t\t<td>21.63</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>3</td>\n' +
+                '\t\t\t\t\t\t\t<td>17.72</td>\n' +
+                '\t\t\t\t\t\t\t<td>25.42</td>\n' +
+                '\t\t\t\t\t\t\t<td>25.83</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>4</td>\n' +
+                '\t\t\t\t\t\t\t<td>19.22</td>\n' +
+                '\t\t\t\t\t\t\t<td>30.83</td>\n' +
+                '\t\t\t\t\t\t\t<td>32.50</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>5</td>\n' +
+                '\t\t\t\t\t\t\t<td>21.33</td>\n' +
+                '\t\t\t\t\t\t\t<td>—</td>\n' +
+                '\t\t\t\t\t\t\t<td>39.25</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>6</td>\n' +
+                '\t\t\t\t\t\t\t<td>25.43</td>\n' +
+                '\t\t\t\t\t\t\t<td>—</td>\n' +
+                '\t\t\t\t\t\t\t<td>47.52</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>8</td>\n' +
+                '\t\t\t\t\t\t\t<td>30.85</td>\n' +
+                '\t\t\t\t\t\t\t<td>—</td>\n' +
+                '\t\t\t\t\t\t\t<td>70.35</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>10</td>\n' +
+                '\t\t\t\t\t\t\t<td>38.50</td>\n' +
+                '\t\t\t\t\t\t\t<td>—</td>\n' +
+                '\t\t\t\t\t\t\t<td>96.58</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>12</td>\n' +
+                '\t\t\t\t\t\t\t<td>49.65</td>\n' +
+                '\t\t\t\t\t\t\t<td>—</td>\n' +
+                '\t\t\t\t\t\t\t<td>131.85</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>14</td>\n' +
+                '\t\t\t\t\t\t\t<td>62.23</td>\n' +
+                '\t\t\t\t\t\t\t<td>—</td>\n' +
+                '\t\t\t\t\t\t\t<td>198.42</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>16</td>\n' +
+                '\t\t\t\t\t\t\t<td>67.58</td>\n' +
+                '\t\t\t\t\t\t\t<td>—</td>\n' +
+                '\t\t\t\t\t\t\t<td>225.35</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>18</td>\n' +
+                '\t\t\t\t\t\t\t<td>96.55</td>\n' +
+                '\t\t\t\t\t\t\t<td>—</td>\n' +
+                '\t\t\t\t\t\t\t<td>279.83</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>20</td>\n' +
+                '\t\t\t\t\t\t\t<td>109.50</td>\n' +
+                '\t\t\t\t\t\t\t<td>—</td>\n' +
+                '\t\t\t\t\t\t\t<td>334.55</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t</tbody>\n' +
+                '\t\t\t\t\t</table>\n' +
+                '\t\t\t\t</div>\n' +
+                '\t\t\t\t<div class="btn-container">\n' +
+                '\t\t\t\t\t<button class="btn btn_sm btn_blue js-callback">Оставить заявку</button>\n' +
+                '\t\t\t\t</div>\n' +
+                '\t\t\t</div>\n' +
+                '\t\t\t<div class="price__entry">\n' +
+                '\t\t\t\t<div class="price__title">Прайс лист на услуги лазерной резки цветных металлов</div>\n' +
+                '\t\t\t\t<div class="price__subtitle">Цена, руб./м.</div>\n' +
+                '\t\t\t\t<div class="price__tbl">\n' +
+                '\t\t\t\t\t<table>\n' +
+                '\t\t\t\t\t\t<thead>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<th>Толщина, мм.</th>\n' +
+                '\t\t\t\t\t\t\t<th>Алюминий</th>\n' +
+                '\t\t\t\t\t\t\t<th>Медь</th>\n' +
+                '\t\t\t\t\t\t\t<th>Латунь</th>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t</thead>\n' +
+                '\t\t\t\t\t\t<tbody>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>1</td>\n' +
+                '\t\t\t\t\t\t\t<td>10.35</td>\n' +
+                '\t\t\t\t\t\t\t<td>14.95</td>\n' +
+                '\t\t\t\t\t\t\t<td>34.50</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>1.5</td>\n' +
+                '\t\t\t\t\t\t\t<td>12.95</td>\n' +
+                '\t\t\t\t\t\t\t<td>23.15</td>\n' +
+                '\t\t\t\t\t\t\t<td>54.45</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>2</td>\n' +
+                '\t\t\t\t\t\t\t<td>16.20</td>\n' +
+                '\t\t\t\t\t\t\t<td>42.55</td>\n' +
+                '\t\t\t\t\t\t\t<td>69.30</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>2.5</td>\n' +
+                '\t\t\t\t\t\t\t<td>—</td>\n' +
+                '\t\t\t\t\t\t\t<td>—</td>\n' +
+                '\t\t\t\t\t\t\t<td>79.00</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>3</td>\n' +
+                '\t\t\t\t\t\t\t<td>22.65</td>\n' +
+                '\t\t\t\t\t\t\t<td>48.25</td>\n' +
+                '\t\t\t\t\t\t\t<td>83.60</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>4</td>\n' +
+                '\t\t\t\t\t\t\t<td>30.60</td>\n' +
+                '\t\t\t\t\t\t\t<td>64.15</td>\n' +
+                '\t\t\t\t\t\t\t<td>97.35</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>5</td>\n' +
+                '\t\t\t\t\t\t\t<td>43.25</td>\n' +
+                '\t\t\t\t\t\t\t<td>123.80</td>\n' +
+                '\t\t\t\t\t\t\t<td>—</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>6</td>\n' +
+                '\t\t\t\t\t\t\t<td>54.15</td>\n' +
+                '\t\t\t\t\t\t\t<td>—</td>\n' +
+                '\t\t\t\t\t\t\t<td>—</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>8</td>\n' +
+                '\t\t\t\t\t\t\t<td>98.55</td>\n' +
+                '\t\t\t\t\t\t\t<td>—</td>\n' +
+                '\t\t\t\t\t\t\t<td>—</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>10</td>\n' +
+                '\t\t\t\t\t\t\t<td>163.35</td>\n' +
+                '\t\t\t\t\t\t\t<td>—</td>\n' +
+                '\t\t\t\t\t\t\t<td>—</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>12</td>\n' +
+                '\t\t\t\t\t\t\t<td>257.65</td>\n' +
+                '\t\t\t\t\t\t\t<td>—</td>\n' +
+                '\t\t\t\t\t\t\t<td>—</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>14</td>\n' +
+                '\t\t\t\t\t\t\t<td>—</td>\n' +
+                '\t\t\t\t\t\t\t<td>—</td>\n' +
+                '\t\t\t\t\t\t\t<td>—</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>16</td>\n' +
+                '\t\t\t\t\t\t\t<td>308.90</td>\n' +
+                '\t\t\t\t\t\t\t<td>—</td>\n' +
+                '\t\t\t\t\t\t\t<td>—</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>18</td>\n' +
+                '\t\t\t\t\t\t\t<td>—</td>\n' +
+                '\t\t\t\t\t\t\t<td>—</td>\n' +
+                '\t\t\t\t\t\t\t<td>—</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>20</td>\n' +
+                '\t\t\t\t\t\t\t<td>419.50</td>\n' +
+                '\t\t\t\t\t\t\t<td>—</td>\n' +
+                '\t\t\t\t\t\t\t<td>—</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t</tbody>\n' +
+                '\t\t\t\t\t</table>\n' +
+                '\t\t\t\t</div>\n' +
+                '\t\t\t\t<div class="btn-container">\n' +
+                '\t\t\t\t\t<button class="btn btn_sm btn_blue js-callback">Оставить заявку</button>\n' +
+                '\t\t\t\t</div>\n' +
+                '\t\t\t</div>\n' +
+                '\t\t</div>\n' +
+                '\t</div>\n' +
+                '</div>'
+    }, {
+        title: 'Лазерная 3D <br>резка труб',
+        content: '<div class="price">\n' +
+                '\t<div class="price__desc" style="background-image: url(/img/bg_lazernaya_rezka.svg)">\n' +
+                '\t\t<div class="block block_padding">\n' +
+                '\t\t\t<div class="price__title">Лазерная 3-D резка труб</div>\n' +
+                '\t\t\t<p><b>Лазерная 3-D резка труб</b> – процесс резки профильных заготовок круглого, квадратного, прямоугольного сечения, а также L и U образных профилей. С помощью данной технологии раскроя можно резать заготовки под углом к поверхности, 3D-резка.</p>\n' +
+                '\t\t\t<div class="price__subtitle">Описание услуги</div>\n' +
+                '\t\t\t<p>Услуга выполняется на новом современном комплексе лазерного раскроя труб от производителя TRUMPF. Данный комплекс позволяет резать заготовки диаметром до 250 мм и толщиной стенки до 10 мм.</p>\n' +
+                '\t\t\t<p>Данный способ раскроя профильных заготовок является наиболее современным, точным и высокопроизводительным. Он подходит для всех металлических сплавов.</p>\n' +
+                '\t\t\t<p>Возможности нашего оборудования  позволяют быстро обрабатывать большие объёмы заказов, получать качественный срез без необходимости последующей доработки.</p>\n' +
+                '\t\t\t<div class="price__price"><strong>Цена:</strong> по договоренности</div>\n' +
+                '\t\t\t<div class="desc__bottom">\n' +
+                '\t\t\t\t<button class="btn btn_sm btn_white js-callback">Оставить заявку</button>\n' +
+                '\t\t\t</div>\n' +
+                '\t\t</div>\n' +
+                '\t</div>\n' +
+                '</div>'
+    }, {
+        title: 'Гидроабразивная <br>резка',
+        content: '<div class="price">\n' +
+                '\t<div class="price__desc" style="background-image: url(/img/bg_gidroabraziv.svg)">\n' +
+                '\t\t<div class="block block_padding">\n' +
+                '\t\t\t<div class="price__title">Гидроабразивная резка металла</div>\n' +
+                '\t\t\t<p><b>Гидроабразивная резка (ГАР)</b> - процесс обработки металла струей воды с добавлением частиц абразивного песка под высоким давлением.</p>\n' +
+                '\t\t\t<div class="price__subtitle">Описание услуги</div>\n' +
+                '\t\t\t<p>Услуга выполняется на новом современном станке гидроабразивной резки от производителя WATERJET способным резать даже самые большие толщины до 100 мм, вне зависимости от марки материала.</p>\n' +
+                '\t\t\t<p>Данный способ раскроя предпочтителен для сверхбольших толщин, а также материалов, не подходящих по своим тепло химическим свойствам лазерной обработке.</p>\n' +
+                '\t\t\t<div class="price__price"><strong>Цена:</strong> от 15 руб./метр</div>\n' +
+                '\t\t\t<div class="desc__bottom">\n' +
+                '\t\t\t\t<button class="btn btn_sm btn_white js-callback">Оставить заявку</button>\n' +
+                '\t\t\t\t<a class="price__download" href="/price/price_gidroabraziv.pdf" download>Скачать прайс на услугу</a>\n' +
+                '\t\t\t</div>\n' +
+                '\t\t</div>\n' +
+                '\t</div>\n' +
+                '\t<div class="price__lists">\n' +
+                '\t\t<div class="block block_padding">\n' +
+                '\t\t\t<div class="price__entry">\n' +
+                '\t\t\t\t<div class="price__title">Прайс лист на услуги гидроабразивной резки металла</div>\n' +
+                '\t\t\t\t<div class="price__subtitle">Черная сталь - цена, руб/м.</div>\n' +
+                '\t\t\t\t<div class="price__tbl">\n' +
+                '\t\t\t\t\t<table>\n' +
+                '\t\t\t\t\t\t<thead>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<th>Толщина, мм.</th>\n' +
+                '\t\t\t\t\t\t\t<th>RZ20</th>\n' +
+                '\t\t\t\t\t\t\t<th>RZ40</th>\n' +
+                '\t\t\t\t\t\t\t<th>RZ60</th>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t</thead>\n' +
+                '\t\t\t\t\t\t<tbody>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>2</td>\n' +
+                '\t\t\t\t\t\t\t<td>97.26</td>\n' +
+                '\t\t\t\t\t\t\t<td>74.86</td>\n' +
+                '\t\t\t\t\t\t\t<td>57.21</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>3</td>\n' +
+                '\t\t\t\t\t\t\t<td>126.52</td>\n' +
+                '\t\t\t\t\t\t\t<td>90.73</td>\n' +
+                '\t\t\t\t\t\t\t<td>66.15</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>5</td>\n' +
+                '\t\t\t\t\t\t\t<td>179.32</td>\n' +
+                '\t\t\t\t\t\t\t<td>115.12</td>\n' +
+                '\t\t\t\t\t\t\t<td>78.65</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>8</td>\n' +
+                '\t\t\t\t\t\t\t<td>332.21</td>\n' +
+                '\t\t\t\t\t\t\t<td>213.55</td>\n' +
+                '\t\t\t\t\t\t\t<td>147.75</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>10</td>\n' +
+                '\t\t\t\t\t\t\t<td>442.55</td>\n' +
+                '\t\t\t\t\t\t\t<td>289.59</td>\n' +
+                '\t\t\t\t\t\t\t<td>196.20</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>12</td>\n' +
+                '\t\t\t\t\t\t\t<td>567.87</td>\n' +
+                '\t\t\t\t\t\t\t<td>370.88</td>\n' +
+                '\t\t\t\t\t\t\t<td>251.62</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>16</td>\n' +
+                '\t\t\t\t\t\t\t<td>841.33</td>\n' +
+                '\t\t\t\t\t\t\t<td>549.90</td>\n' +
+                '\t\t\t\t\t\t\t<td>373.19</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>18</td>\n' +
+                '\t\t\t\t\t\t\t<td>990.08</td>\n' +
+                '\t\t\t\t\t\t\t<td>647.47</td>\n' +
+                '\t\t\t\t\t\t\t<td>439.86</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>20</td>\n' +
+                '\t\t\t\t\t\t\t<td>1 145.02</td>\n' +
+                '\t\t\t\t\t\t\t<td>748.15</td>\n' +
+                '\t\t\t\t\t\t\t<td>508.84</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>25</td>\n' +
+                '\t\t\t\t\t\t\t<td>1 561.43</td>\n' +
+                '\t\t\t\t\t\t\t<td>1 022.25</td>\n' +
+                '\t\t\t\t\t\t\t<td>685.62</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>30</td>\n' +
+                '\t\t\t\t\t\t\t<td>2 019.38</td>\n' +
+                '\t\t\t\t\t\t\t<td>1 316.72</td>\n' +
+                '\t\t\t\t\t\t\t<td>893.55</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>40</td>\n' +
+                '\t\t\t\t\t\t\t<td>3 030.15</td>\n' +
+                '\t\t\t\t\t\t\t<td>1 897.20</td>\n' +
+                '\t\t\t\t\t\t\t<td>1 321.33</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>50</td>\n' +
+                '\t\t\t\t\t\t\t<td>4 097.36</td>\n' +
+                '\t\t\t\t\t\t\t<td>2 680.65</td>\n' +
+                '\t\t\t\t\t\t\t<td>1 823.91</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>60</td>\n' +
+                '\t\t\t\t\t\t\t<td>5 442.75</td>\n' +
+                '\t\t\t\t\t\t\t<td>3 523.44</td>\n' +
+                '\t\t\t\t\t\t\t<td>2 383.48</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>70</td>\n' +
+                '\t\t\t\t\t\t\t<td>6 800.50</td>\n' +
+                '\t\t\t\t\t\t\t<td>4 432.31</td>\n' +
+                '\t\t\t\t\t\t\t<td>3 008.73</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>80</td>\n' +
+                '\t\t\t\t\t\t\t<td>8 330.60</td>\n' +
+                '\t\t\t\t\t\t\t<td>5 371.13</td>\n' +
+                '\t\t\t\t\t\t\t<td>3 644.38</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>90</td>\n' +
+                '\t\t\t\t\t\t\t<td>9 956.35</td>\n' +
+                '\t\t\t\t\t\t\t<td>6 479.43</td>\n' +
+                '\t\t\t\t\t\t\t<td>4 389.13</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>100</td>\n' +
+                '\t\t\t\t\t\t\t<td>11 877.92</td>\n' +
+                '\t\t\t\t\t\t\t<td>7 559.34</td>\n' +
+                '\t\t\t\t\t\t\t<td>5 166.51</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t</tbody>\n' +
+                '\t\t\t\t\t</table>\n' +
+                '\t\t\t\t</div>\n' +
+                '\t\t\t\t<div class="btn-container">\n' +
+                '\t\t\t\t\t<button class="btn btn_sm btn_blue js-callback">Оставить заявку</button>\n' +
+                '\t\t\t\t</div>\n' +
+                '\t\t\t</div>\n' +
+                '\t\t\t<div class="price__entry">\n' +
+                '\t\t\t\t<div class="price__subtitle">Нержавеющая сталь - цена, руб/м.</div>\n' +
+                '\t\t\t\t<div class="price__tbl">\n' +
+                '\t\t\t\t\t<table>\n' +
+                '\t\t\t\t\t\t<thead>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<th>Толщина, мм.</th>\n' +
+                '\t\t\t\t\t\t\t<th>RZ20</th>\n' +
+                '\t\t\t\t\t\t\t<th>RZ40</th>\n' +
+                '\t\t\t\t\t\t\t<th>RZ60</th>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t</thead>\n' +
+                '\t\t\t\t\t\t<tbody>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>2</td>\n' +
+                '\t\t\t\t\t\t\t<td>98.12</td>\n' +
+                '\t\t\t\t\t\t\t<td>75.21</td>\n' +
+                '\t\t\t\t\t\t\t<td>57.53</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>3</td>\n' +
+                '\t\t\t\t\t\t\t<td>127.18</td>\n' +
+                '\t\t\t\t\t\t\t<td>91.23</td>\n' +
+                '\t\t\t\t\t\t\t<td>66.46</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>5</td>\n' +
+                '\t\t\t\t\t\t\t<td>180.92</td>\n' +
+                '\t\t\t\t\t\t\t<td>115.94</td>\n' +
+                '\t\t\t\t\t\t\t<td>78.67</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>8</td>\n' +
+                '\t\t\t\t\t\t\t<td>335.62</td>\n' +
+                '\t\t\t\t\t\t\t<td>215.05</td>\n' +
+                '\t\t\t\t\t\t\t<td>148.69</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>10</td>\n' +
+                '\t\t\t\t\t\t\t<td>453.44</td>\n' +
+                '\t\t\t\t\t\t\t<td>296.67</td>\n' +
+                '\t\t\t\t\t\t\t<td>201.42</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>12</td>\n' +
+                '\t\t\t\t\t\t\t<td>582.80</td>\n' +
+                '\t\t\t\t\t\t\t<td>380.98</td>\n' +
+                '\t\t\t\t\t\t\t<td>258.28</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>16</td>\n' +
+                '\t\t\t\t\t\t\t<td>864.62</td>\n' +
+                '\t\t\t\t\t\t\t<td>554.36</td>\n' +
+                '\t\t\t\t\t\t\t<td>383.56</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>18</td>\n' +
+                '\t\t\t\t\t\t\t<td>1 017.46</td>\n' +
+                '\t\t\t\t\t\t\t<td>652.56</td>\n' +
+                '\t\t\t\t\t\t\t<td>442.32</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>20</td>\n' +
+                '\t\t\t\t\t\t\t<td>1 154.63</td>\n' +
+                '\t\t\t\t\t\t\t<td>754.41</td>\n' +
+                '\t\t\t\t\t\t\t<td>511.82</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>25</td>\n' +
+                '\t\t\t\t\t\t\t<td>1 573.30</td>\n' +
+                '\t\t\t\t\t\t\t<td>1 030.15</td>\n' +
+                '\t\t\t\t\t\t\t<td>698.31</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>30</td>\n' +
+                '\t\t\t\t\t\t\t<td>2 031.35</td>\n' +
+                '\t\t\t\t\t\t\t<td>1 329.78</td>\n' +
+                '\t\t\t\t\t\t\t<td>901.73</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>40</td>\n' +
+                '\t\t\t\t\t\t\t<td>3 053.26</td>\n' +
+                '\t\t\t\t\t\t\t<td>1 905.89</td>\n' +
+                '\t\t\t\t\t\t\t<td>1 355.52</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>50</td>\n' +
+                '\t\t\t\t\t\t\t<td>4 185.73</td>\n' +
+                '\t\t\t\t\t\t\t<td>2 711.78</td>\n' +
+                '\t\t\t\t\t\t\t<td>1 875.39</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>60</td>\n' +
+                '\t\t\t\t\t\t\t<td>5 469.41</td>\n' +
+                '\t\t\t\t\t\t\t<td>3 553.51</td>\n' +
+                '\t\t\t\t\t\t\t<td>2 442.31</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>70</td>\n' +
+                '\t\t\t\t\t\t\t<td>6 952.57</td>\n' +
+                '\t\t\t\t\t\t\t<td>4 458.33</td>\n' +
+                '\t\t\t\t\t\t\t<td>3 084.46</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>80</td>\n' +
+                '\t\t\t\t\t\t\t<td>8 545.42</td>\n' +
+                '\t\t\t\t\t\t\t<td>5 469.46</td>\n' +
+                '\t\t\t\t\t\t\t<td>3 713.54</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>90</td>\n' +
+                '\t\t\t\t\t\t\t<td>10 251.57</td>\n' +
+                '\t\t\t\t\t\t\t<td>6 510.89</td>\n' +
+                '\t\t\t\t\t\t\t<td>4 410.47</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>100</td>\n' +
+                '\t\t\t\t\t\t\t<td>12 062.38</td>\n' +
+                '\t\t\t\t\t\t\t<td>7 739.10</td>\n' +
+                '\t\t\t\t\t\t\t<td>5 259.14</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t</tbody>\n' +
+                '\t\t\t\t\t</table>\n' +
+                '\t\t\t\t</div>\n' +
+                '\t\t\t\t<div class="btn-container">\n' +
+                '\t\t\t\t\t<button class="btn btn_sm btn_blue js-callback">Оставить заявку</button>\n' +
+                '\t\t\t\t</div>\n' +
+                '\t\t\t</div>\n' +
+                '\t\t\t<div class="price__entry">\n' +
+                '\t\t\t\t<div class="price__subtitle">Алюминий - цена, руб/м.</div>\n' +
+                '\t\t\t\t<div class="price__tbl">\n' +
+                '\t\t\t\t\t<table>\n' +
+                '\t\t\t\t\t\t<thead>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<th>Толщина, мм.</th>\n' +
+                '\t\t\t\t\t\t\t<th>RZ20</th>\n' +
+                '\t\t\t\t\t\t\t<th>RZ40</th>\n' +
+                '\t\t\t\t\t\t\t<th>RZ60</th>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t</thead>\n' +
+                '\t\t\t\t\t\t<tbody>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>2</td>\n' +
+                '\t\t\t\t\t\t\t<td>45.71</td>\n' +
+                '\t\t\t\t\t\t\t<td>30.61</td>\n' +
+                '\t\t\t\t\t\t\t<td>21.10</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>3</td>\n' +
+                '\t\t\t\t\t\t\t<td>51.22</td>\n' +
+                '\t\t\t\t\t\t\t<td>32.82</td>\n' +
+                '\t\t\t\t\t\t\t<td>22.50</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>5</td>\n' +
+                '\t\t\t\t\t\t\t<td>58.12</td>\n' +
+                '\t\t\t\t\t\t\t<td>37.26</td>\n' +
+                '\t\t\t\t\t\t\t<td>25.15</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>8</td>\n' +
+                '\t\t\t\t\t\t\t<td>109.37</td>\n' +
+                '\t\t\t\t\t\t\t<td>69.33</td>\n' +
+                '\t\t\t\t\t\t\t<td>47.82</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>10</td>\n' +
+                '\t\t\t\t\t\t\t<td>148.73</td>\n' +
+                '\t\t\t\t\t\t\t<td>95.24</td>\n' +
+                '\t\t\t\t\t\t\t<td>65.14</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>12</td>\n' +
+                '\t\t\t\t\t\t\t<td>190.41</td>\n' +
+                '\t\t\t\t\t\t\t<td>122.18</td>\n' +
+                '\t\t\t\t\t\t\t<td>82.89</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>16</td>\n' +
+                '\t\t\t\t\t\t\t<td>281.37</td>\n' +
+                '\t\t\t\t\t\t\t<td>175.23</td>\n' +
+                '\t\t\t\t\t\t\t<td>123.15</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>18</td>\n' +
+                '\t\t\t\t\t\t\t<td>326.32</td>\n' +
+                '\t\t\t\t\t\t\t<td>213.51</td>\n' +
+                '\t\t\t\t\t\t\t<td>144.85</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>20</td>\n' +
+                '\t\t\t\t\t\t\t<td>376.16</td>\n' +
+                '\t\t\t\t\t\t\t<td>241.37</td>\n' +
+                '\t\t\t\t\t\t\t<td>166.34</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>25</td>\n' +
+                '\t\t\t\t\t\t\t<td>512.37</td>\n' +
+                '\t\t\t\t\t\t\t<td>324.71</td>\n' +
+                '\t\t\t\t\t\t\t<td>227.44</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>30</td>\n' +
+                '\t\t\t\t\t\t\t<td>665.71</td>\n' +
+                '\t\t\t\t\t\t\t<td>426.33</td>\n' +
+                '\t\t\t\t\t\t\t<td>294.25</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>40</td>\n' +
+                '\t\t\t\t\t\t\t<td>1 002.62</td>\n' +
+                '\t\t\t\t\t\t\t<td>641.12</td>\n' +
+                '\t\t\t\t\t\t\t<td>435.05</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>50</td>\n' +
+                '\t\t\t\t\t\t\t<td>1 368.13</td>\n' +
+                '\t\t\t\t\t\t\t<td>869.32</td>\n' +
+                '\t\t\t\t\t\t\t<td>589.13</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>60</td>\n' +
+                '\t\t\t\t\t\t\t<td>1 776.25</td>\n' +
+                '\t\t\t\t\t\t\t<td>1 132.73</td>\n' +
+                '\t\t\t\t\t\t\t<td>771.40</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>70</td>\n' +
+                '\t\t\t\t\t\t\t<td>2 229.89</td>\n' +
+                '\t\t\t\t\t\t\t<td>1 423.61</td>\n' +
+                '\t\t\t\t\t\t\t<td>971.13</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>80</td>\n' +
+                '\t\t\t\t\t\t\t<td>2 735.52</td>\n' +
+                '\t\t\t\t\t\t\t<td>1 741.22</td>\n' +
+                '\t\t\t\t\t\t\t<td>1 201.95</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>90</td>\n' +
+                '\t\t\t\t\t\t\t<td>3 281.31</td>\n' +
+                '\t\t\t\t\t\t\t<td>2 103.74</td>\n' +
+                '\t\t\t\t\t\t\t<td>1 445.15</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>100</td>\n' +
+                '\t\t\t\t\t\t\t<td>3 869.34</td>\n' +
+                '\t\t\t\t\t\t\t<td>2 485.93</td>\n' +
+                '\t\t\t\t\t\t\t<td>1 705.62</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t</tbody>\n' +
+                '\t\t\t\t\t</table>\n' +
+                '\t\t\t\t</div>\n' +
+                '\t\t\t\t<div class="btn-container">\n' +
+                '\t\t\t\t\t<button class="btn btn_sm btn_blue js-callback">Оставить заявку</button>\n' +
+                '\t\t\t\t</div>\n' +
+                '\t\t\t</div>\n' +
+                '\t\t\t<div class="price__entry">\n' +
+                '\t\t\t\t<div class="price__subtitle">Медь - цена, руб/м.</div>\n' +
+                '\t\t\t\t<div class="price__tbl">\n' +
+                '\t\t\t\t\t<table>\n' +
+                '\t\t\t\t\t\t<thead>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<th>Толщина, мм.</th>\n' +
+                '\t\t\t\t\t\t\t<th>RZ20</th>\n' +
+                '\t\t\t\t\t\t\t<th>RZ40</th>\n' +
+                '\t\t\t\t\t\t\t<th>RZ60</th>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t</thead>\n' +
+                '\t\t\t\t\t\t<tbody>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>2</td>\n' +
+                '\t\t\t\t\t\t\t<td>80.45</td>\n' +
+                '\t\t\t\t\t\t\t<td>61.55</td>\n' +
+                '\t\t\t\t\t\t\t<td>45.10</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>3</td>\n' +
+                '\t\t\t\t\t\t\t<td>100.55</td>\n' +
+                '\t\t\t\t\t\t\t<td>71.30</td>\n' +
+                '\t\t\t\t\t\t\t<td>51.30</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>5</td>\n' +
+                '\t\t\t\t\t\t\t<td>131.27</td>\n' +
+                '\t\t\t\t\t\t\t<td>89.37</td>\n' +
+                '\t\t\t\t\t\t\t<td>57.80</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>8</td>\n' +
+                '\t\t\t\t\t\t\t<td>169.45</td>\n' +
+                '\t\t\t\t\t\t\t<td>109.14</td>\n' +
+                '\t\t\t\t\t\t\t<td>75.15</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>10</td>\n' +
+                '\t\t\t\t\t\t\t<td>248.52</td>\n' +
+                '\t\t\t\t\t\t\t<td>161.35</td>\n' +
+                '\t\t\t\t\t\t\t<td>110.75</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>12</td>\n' +
+                '\t\t\t\t\t\t\t<td>338.25</td>\n' +
+                '\t\t\t\t\t\t\t<td>219.75</td>\n' +
+                '\t\t\t\t\t\t\t<td>149.12</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>16</td>\n' +
+                '\t\t\t\t\t\t\t<td>433.18</td>\n' +
+                '\t\t\t\t\t\t\t<td>281.42</td>\n' +
+                '\t\t\t\t\t\t\t<td>191.55</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>18</td>\n' +
+                '\t\t\t\t\t\t\t<td>642.23</td>\n' +
+                '\t\t\t\t\t\t\t<td>418.53</td>\n' +
+                '\t\t\t\t\t\t\t<td>279.37</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>20</td>\n' +
+                '\t\t\t\t\t\t\t<td>757.28</td>\n' +
+                '\t\t\t\t\t\t\t<td>483.32</td>\n' +
+                '\t\t\t\t\t\t\t<td>331.25</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>25</td>\n' +
+                '\t\t\t\t\t\t\t<td>877.32</td>\n' +
+                '\t\t\t\t\t\t\t<td>559.83</td>\n' +
+                '\t\t\t\t\t\t\t<td>380.15</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>30</td>\n' +
+                '\t\t\t\t\t\t\t<td>1 181.25</td>\n' +
+                '\t\t\t\t\t\t\t<td>761.42</td>\n' +
+                '\t\t\t\t\t\t\t<td>520.48</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>40</td>\n' +
+                '\t\t\t\t\t\t\t<td>1 525.14</td>\n' +
+                '\t\t\t\t\t\t\t<td>981.23</td>\n' +
+                '\t\t\t\t\t\t\t<td>668.32</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>50</td>\n' +
+                '\t\t\t\t\t\t\t<td>2 265.39</td>\n' +
+                '\t\t\t\t\t\t\t<td>1 472.84</td>\n' +
+                '\t\t\t\t\t\t\t<td>990.60</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>60</td>\n' +
+                '\t\t\t\t\t\t\t<td>3 111.67</td>\n' +
+                '\t\t\t\t\t\t\t<td>2 035.62</td>\n' +
+                '\t\t\t\t\t\t\t<td>1 368.75</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>70</td>\n' +
+                '\t\t\t\t\t\t\t<td>4 081.92</td>\n' +
+                '\t\t\t\t\t\t\t<td>2 638.39</td>\n' +
+                '\t\t\t\t\t\t\t<td>1 785.21</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>80</td>\n' +
+                '\t\t\t\t\t\t\t<td>5 092.28</td>\n' +
+                '\t\t\t\t\t\t\t<td>3 305.82</td>\n' +
+                '\t\t\t\t\t\t\t<td>2 229.57</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>90</td>\n' +
+                '\t\t\t\t\t\t\t<td>6 225.15</td>\n' +
+                '\t\t\t\t\t\t\t<td>4 065.15</td>\n' +
+                '\t\t\t\t\t\t\t<td>2 741.51</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>100</td>\n' +
+                '\t\t\t\t\t\t\t<td>7 538.62</td>\n' +
+                '\t\t\t\t\t\t\t<td>4 834.53</td>\n' +
+                '\t\t\t\t\t\t\t<td>3 289.25</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t</tbody>\n' +
+                '\t\t\t\t\t</table>\n' +
+                '\t\t\t\t</div>\n' +
+                '\t\t\t\t<div class="btn-container">\n' +
+                '\t\t\t\t\t<button class="btn btn_sm btn_blue js-callback">Оставить заявку</button>\n' +
+                '\t\t\t\t</div>\n' +
+                '\t\t\t</div>\n' +
+                '\t\t</div>\n' +
+                '\t</div>\n' +
+                '</div>'
+    }, {
+        title: 'Координатно-пробивные работы',
+        content: '<div class="price">\n' +
+                '\t<div class="price__desc" style="background-image: url(/img/bg_koordinat.svg)">\n' +
+                '\t\t<div class="block block_padding">\n' +
+                '\t\t\t<div class="price__title">Координатно-пробивные работы</div>\n' +
+                '\t\t\t<p><b>Координатно-пробивные работы</b> – процесс изготовления деталей из металла, их формовка, штамповка, высечка отверстий различных форм c получением готовых деталей самых различных конфигураций, размеров и сложности.</p>\n' +
+                '\t\t\t<div class="price__subtitle">Описание услуги</div>\n' +
+                '\t\t\t<p>Услуга выполняется на новых современных координатно-пробивных прессах от производителя AMADA с автоматической сменой инструмента, обладающих отличной производительностью и высочайшей точностью, что позволяет качественно, быстро и по доступным ценам решать задачи, поставленные перед\n' +
+                '\t\t\t\tнами заказчиком.</p>\n' +
+                '\t\t\t<p>В производственном оснащении наших специалистов огромный выбор пробивных инструментов, что позволяет закрывать любые потребности заказчика.</p>\n' +
+                '\t\t\t<div class="price__price"><strong>Цена:</strong> от 4.7 руб.</div>\n' +
+                '\t\t\t<div class="desc__bottom">\n' +
+                '\t\t\t\t<button class="btn btn_sm btn_white js-callback">Оставить заявку</button>\n' +
+                '\t\t\t\t<a class="price__download" href="/price/price_koordinat.pdf" download>Скачать прайс на услугу</a>\n' +
+                '\t\t\t</div>\n' +
+                '\t\t</div>\n' +
+                '\t</div>\n' +
+                '\t<div class="price__lists">\n' +
+                '\t\t<div class="block block_padding">\n' +
+                '\t\t\t<div class="price__entry">\n' +
+                '\t\t\t\t<div class="price__title">Прайс лист на координатно-пробивные работы</div>\n' +
+                '\t\t\t\t<div class="price__subtitle">Цена, руб.</div>\n' +
+                '\t\t\t\t<div class="price__tbl">\n' +
+                '\t\t\t\t\t<table>\n' +
+                '\t\t\t\t\t\t<thead>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<th>Толщина, мм.</th>\n' +
+                '\t\t\t\t\t\t\t<th>Холоднокатанная <br>сталь</th>\n' +
+                '\t\t\t\t\t\t\t<th>Оцинкованная <br>сталь</th>\n' +
+                '\t\t\t\t\t\t\t<th>Нержавеющая <br>сталь</th>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t</thead>\n' +
+                '\t\t\t\t\t\t<tbody>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>0,35</td>\n' +
+                '\t\t\t\t\t\t\t<td>5.15</td>\n' +
+                '\t\t\t\t\t\t\t<td>5.15</td>\n' +
+                '\t\t\t\t\t\t\t<td>5.15</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>0,5</td>\n' +
+                '\t\t\t\t\t\t\t<td>5.15</td>\n' +
+                '\t\t\t\t\t\t\t<td>5.15</td>\n' +
+                '\t\t\t\t\t\t\t<td>5.15</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>1</td>\n' +
+                '\t\t\t\t\t\t\t<td>4.70</td>\n' +
+                '\t\t\t\t\t\t\t<td>4.70</td>\n' +
+                '\t\t\t\t\t\t\t<td>4.70</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>1,5</td>\n' +
+                '\t\t\t\t\t\t\t<td>4.70</td>\n' +
+                '\t\t\t\t\t\t\t<td>4.65</td>\n' +
+                '\t\t\t\t\t\t\t<td>4.65</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>2</td>\n' +
+                '\t\t\t\t\t\t\t<td>4.70</td>\n' +
+                '\t\t\t\t\t\t\t<td>4.70</td>\n' +
+                '\t\t\t\t\t\t\t<td>4.70</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>2,5</td>\n' +
+                '\t\t\t\t\t\t\t<td>5.50</td>\n' +
+                '\t\t\t\t\t\t\t<td>5.50</td>\n' +
+                '\t\t\t\t\t\t\t<td>5.50</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>3</td>\n' +
+                '\t\t\t\t\t\t\t<td>6.00</td>\n' +
+                '\t\t\t\t\t\t\t<td>6.00</td>\n' +
+                '\t\t\t\t\t\t\t<td>6.00</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t</tbody>\n' +
+                '\t\t\t\t\t</table>\n' +
+                '\t\t\t\t\t<table>\n' +
+                '\t\t\t\t\t\t<thead>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<th>Толщина, мм.</th>\n' +
+                '\t\t\t\t\t\t\t<th>Алюминий</th>\n' +
+                '\t\t\t\t\t\t\t<th>Медь</th>\n' +
+                '\t\t\t\t\t\t\t<th>Латунь</th>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t</thead>\n' +
+                '\t\t\t\t\t\t<tbody>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>0,35</td>\n' +
+                '\t\t\t\t\t\t\t<td>&mdash;</td>\n' +
+                '\t\t\t\t\t\t\t<td>&mdash;</td>\n' +
+                '\t\t\t\t\t\t\t<td>&mdash;</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>0,5</td>\n' +
+                '\t\t\t\t\t\t\t<td>5.15</td>\n' +
+                '\t\t\t\t\t\t\t<td>5.15</td>\n' +
+                '\t\t\t\t\t\t\t<td>5.15</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>1</td>\n' +
+                '\t\t\t\t\t\t\t<td>4.70</td>\n' +
+                '\t\t\t\t\t\t\t<td>4.70</td>\n' +
+                '\t\t\t\t\t\t\t<td>4.70</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>1,5</td>\n' +
+                '\t\t\t\t\t\t\t<td>4.70</td>\n' +
+                '\t\t\t\t\t\t\t<td>4.65</td>\n' +
+                '\t\t\t\t\t\t\t<td>4.65</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>2</td>\n' +
+                '\t\t\t\t\t\t\t<td>4.70</td>\n' +
+                '\t\t\t\t\t\t\t<td>4.70</td>\n' +
+                '\t\t\t\t\t\t\t<td>4.70</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>2,5</td>\n' +
+                '\t\t\t\t\t\t\t<td>5.50</td>\n' +
+                '\t\t\t\t\t\t\t<td>5.50</td>\n' +
+                '\t\t\t\t\t\t\t<td>5.50</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>3</td>\n' +
+                '\t\t\t\t\t\t\t<td>6.00</td>\n' +
+                '\t\t\t\t\t\t\t<td>6.00</td>\n' +
+                '\t\t\t\t\t\t\t<td>6.00</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t</tbody>\n' +
+                '\t\t\t\t\t</table>\n' +
+                '\t\t\t\t</div>\n' +
+                '\t\t\t\t<div class="btn-container">\n' +
+                '\t\t\t\t\t<button class="btn btn_sm btn_blue js-callback">Оставить заявку</button>\n' +
+                '\t\t\t\t</div>\n' +
+                '\t\t\t</div>\n' +
+                '\t\t</div>\n' +
+                '\t</div>\n' +
+                '</div>'
+    }, {
+        title: 'Гибка металла',
+        content: '<div class="price">\n' +
+                '\t<div class="price__desc" style="background-image: url(/img/bg_gibka.svg)">\n' +
+                '\t\t<div class="block block_padding">\n' +
+                '\t\t\t<div class="price__title">Гибка металла</div>\n' +
+                '\t\t\t<p><b>Гибка металла</b> - процесс придания металлическому листу объемности путем деформации с использованием гибочных инструментов пуансон и матриц. Данный процесс металлообработки позволяет получить бесшовные конструкции из листового металла необходимых форм и размеров.</p>\n' +
+                '\t\t\t<div class="price__subtitle">Описание услуги</div>\n' +
+                '\t\t\t<p>Услуга выполняется на новых современных листогибочных прессах от производителей AMADA, TRUMPF способных гнуть листовой металл с высокой производительностью.</p>\n' +
+                '\t\t\t<p>Возможности данного оборудования позволяют гнуть металл толщиной до 16 мм и длиной заготовки до 3000 мм.</p>\n' +
+                '\t\t\t<p> Наиболее распространённым и часто используемым типом гибки является свободная (V-образная) холодная гибка, данным типом гибки мы гнем металлы толщиной от 0,5 до 16 мм.</p>\n' +
+                '\t\t\t<p>В производственном оснащении наших специалистов огромный выбор гибочных инструментов пуансон и матриц, что позволяет обеспечивать необходимые радиусы при гибке и закрывать любые потребности заказчика.</p>\n' +
+                '\t\t\t<div class="price__price"><strong>Цена:</strong> от 4.5 руб.</div>\n' +
+                '\t\t\t<div class="desc__bottom">\n' +
+                '\t\t\t\t<button class="btn btn_sm btn_white js-callback">Оставить заявку</button>\n' +
+                '\t\t\t\t<a class="price__download" href="/price/price_gibka.pdf" download>Скачать прайс на услугу</a>\n' +
+                '\t\t\t</div>\n' +
+                '\t\t</div>\n' +
+                '\t</div>\n' +
+                '\t<div class="price__lists">\n' +
+                '\t\t<div class="block block_padding">\n' +
+                '\t\t\t<div class="price__entry">\n' +
+                '\t\t\t\t<div class="price__title">Прайс лист на услуги гибки металла</div>\n' +
+                '\t\t\t\t<div class="price__subtitle">Цена, руб./гиб.</div>\n' +
+                '\t\t\t\t<div class="price__tbl smallpadding">\n' +
+                '\t\t\t\t\t<table>\n' +
+                '\t\t\t\t\t\t<thead>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<th>Толщина <br>от, мм.</th>\n' +
+                '\t\t\t\t\t\t\t<th>Толщина <br>до, мм.</th>\n' +
+                '\t\t\t\t\t\t\t<th>Длина <br>от, 0 мм.</th>\n' +
+                '\t\t\t\t\t\t\t<th>Длина <br>от, 501 мм.</th>\n' +
+                '\t\t\t\t\t\t\t<th>Длина <br>от, 1001 мм.</th>\n' +
+                '\t\t\t\t\t\t\t<th>Длина <br>от, 2001 мм.</th>\n' +
+                '\t\t\t\t\t\t\t<th>Длина <br>от, 2701 мм.</th>\n' +
+                '\t\t\t\t\t\t\t<th>Длина <br>от, 3201 мм.</th>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t</thead>\n' +
+                '\t\t\t\t\t\t<tbody>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>0</td>\n' +
+                '\t\t\t\t\t\t\t<td>2,5</td>\n' +
+                '\t\t\t\t\t\t\t<td>4.5</td>\n' +
+                '\t\t\t\t\t\t\t<td>5</td>\n' +
+                '\t\t\t\t\t\t\t<td>7</td>\n' +
+                '\t\t\t\t\t\t\t<td>10</td>\n' +
+                '\t\t\t\t\t\t\t<td>20</td>\n' +
+                '\t\t\t\t\t\t\t<td>40</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>2,51</td>\n' +
+                '\t\t\t\t\t\t\t<td>5</td>\n' +
+                '\t\t\t\t\t\t\t<td>6</td>\n' +
+                '\t\t\t\t\t\t\t<td>8</td>\n' +
+                '\t\t\t\t\t\t\t<td>12</td>\n' +
+                '\t\t\t\t\t\t\t<td>16</td>\n' +
+                '\t\t\t\t\t\t\t<td>30</td>\n' +
+                '\t\t\t\t\t\t\t<td>85</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>5,01</td>\n' +
+                '\t\t\t\t\t\t\t<td>9</td>\n' +
+                '\t\t\t\t\t\t\t<td>10</td>\n' +
+                '\t\t\t\t\t\t\t<td>15</td>\n' +
+                '\t\t\t\t\t\t\t<td>20</td>\n' +
+                '\t\t\t\t\t\t\t<td>25</td>\n' +
+                '\t\t\t\t\t\t\t<td>45</td>\n' +
+                '\t\t\t\t\t\t\t<td>125</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>9,01</td>\n' +
+                '\t\t\t\t\t\t\t<td>12</td>\n' +
+                '\t\t\t\t\t\t\t<td>15</td>\n' +
+                '\t\t\t\t\t\t\t<td>120</td>\n' +
+                '\t\t\t\t\t\t\t<td>35</td>\n' +
+                '\t\t\t\t\t\t\t<td>45</td>\n' +
+                '\t\t\t\t\t\t\t<td>60</td>\n' +
+                '\t\t\t\t\t\t\t<td>160</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>12,01</td>\n' +
+                '\t\t\t\t\t\t\t<td>16</td>\n' +
+                '\t\t\t\t\t\t\t<td>30</td>\n' +
+                '\t\t\t\t\t\t\t<td>60</td>\n' +
+                '\t\t\t\t\t\t\t<td>80</td>\n' +
+                '\t\t\t\t\t\t\t<td>100</td>\n' +
+                '\t\t\t\t\t\t\t<td>300</td>\n' +
+                '\t\t\t\t\t\t\t<td>&mdash;</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>16,01</td>\n' +
+                '\t\t\t\t\t\t\t<td>20</td>\n' +
+                '\t\t\t\t\t\t\t<td>50</td>\n' +
+                '\t\t\t\t\t\t\t<td>100</td>\n' +
+                '\t\t\t\t\t\t\t<td>300</td>\n' +
+                '\t\t\t\t\t\t\t<td>600</td>\n' +
+                '\t\t\t\t\t\t\t<td>&mdash;</td>\n' +
+                '\t\t\t\t\t\t\t<td>&mdash;</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t</tbody>\n' +
+                '\t\t\t\t\t</table>\n' +
+                '\t\t\t\t</div>\n' +
+                '\t\t\t\t<div class="price__alert">Наши цены НЕ зависят от марки материала</div>\n' +
+                '\t\t\t\t<div class="btn-container">\n' +
+                '\t\t\t\t\t<button class="btn btn_sm btn_blue js-callback">Оставить заявку</button>\n' +
+                '\t\t\t\t</div>\n' +
+                '\t\t\t</div>\n' +
+                '\t\t\t<div class="price__entry">\n' +
+                '\t\t\t\t<div class="price__subtitle">Добавленная стоимость на гибку – в зависимости от массы детали</div>\n' +
+                '\t\t\t\t<div class="price__tbl">\n' +
+                '\t\t\t\t\t<table>\n' +
+                '\t\t\t\t\t\t<thead>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<th>Масса от, кг.</th>\n' +
+                '\t\t\t\t\t\t\t<th>Масса до, кг.</th>\n' +
+                '\t\t\t\t\t\t\t<th>Цена, руб.</th>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t</thead>\n' +
+                '\t\t\t\t\t\t<tbody>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>15</td>\n' +
+                '\t\t\t\t\t\t\t<td>20</td>\n' +
+                '\t\t\t\t\t\t\t<td>40</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>20</td>\n' +
+                '\t\t\t\t\t\t\t<td>40</td>\n' +
+                '\t\t\t\t\t\t\t<td>80</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>40</td>\n' +
+                '\t\t\t\t\t\t\t<td>60</td>\n' +
+                '\t\t\t\t\t\t\t<td>120</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>60</td>\n' +
+                '\t\t\t\t\t\t\t<td>80</td>\n' +
+                '\t\t\t\t\t\t\t<td>180</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t<tr>\n' +
+                '\t\t\t\t\t\t\t<td>80</td>\n' +
+                '\t\t\t\t\t\t\t<td>100</td>\n' +
+                '\t\t\t\t\t\t\t<td>300</td>\n' +
+                '\t\t\t\t\t\t</tr>\n' +
+                '\t\t\t\t\t\t</tbody>\n' +
+                '\t\t\t\t\t</table>\n' +
+                '\t\t\t\t</div>\n' +
+                '\t\t\t\t<div class="btn-container">\n' +
+                '\t\t\t\t\t<button class="btn btn_sm btn_blue js-callback">Оставить заявку</button>\n' +
+                '\t\t\t\t</div>\n' +
+                '\t\t\t</div>\n' +
+                '\t\t</div>\n' +
+                '\t</div>\n' +
+                '</div>'
+    }, {
+        title: 'Сварка',
+        content: '<div class="price">\n' +
+                '\t<div class="price__desc" style="background-image: url(/img/bg_svarka.svg)">\n' +
+                '\t\t<div class="block block_padding">\n' +
+                '\t\t\t<div class="price__title">Сварка</div>\n' +
+                '\t\t\t<p>Компания G-METHOD оказывает услуги по сварке металлов для клиентов Санкт-Петербурга, Ленинградской области и других регионов страны.</p>\n' +
+                '\t\t\t<p>Мы предлагаем следующие виды сварочных работ:</p>\n' +
+                '\t\t\t<ul>\n' +
+                '\t\t\t\t<li>Аргонодуговая</li>\n' +
+                '\t\t\t\t<li>Полуавтоматическая</li>\n' +
+                '\t\t\t\t<li>Электродная</li>\n' +
+                '\t\t\t\t<li>Точечная</li>\n' +
+                '\t\t\t\t<li>Контактная</li>\n' +
+                '\t\t\t</ul>\n' +
+                '\t\t\t<p>Свариваем такие металлы как:</p>\n' +
+                '\t\t\t<ul>\n' +
+                '\t\t\t\t<li>Сталь углеродистая</li>\n' +
+                '\t\t\t\t<li>Сталь нержавеющая</li>\n' +
+                '\t\t\t\t<li>Алюминий</li>\n' +
+                '\t\t\t\t<li>Медь</li>\n' +
+                '\t\t\t</ul>\n' +
+                '\t\t\t<p>Высококвалифицированные сварщики нашего предприятия имеют многолетний опыт выполнения сварочных работ различных металлов и сплавов.</p>\n' +
+                '\t\t\t<p>Наращивается опыт и объёмы производства корпусных изделий (шкафы, терминалы, рекламное, торговое и промышленное оборудование).</p>\n' +
+                '\t\t\t<div class="price__price"><strong>Цена:</strong> по договоренности</div>\n' +
+                '\t\t\t<div class="desc__bottom">\n' +
+                '\t\t\t\t<button class="btn btn_sm btn_white js-callback">Оставить заявку</button>\n' +
+                '\t\t\t</div>\n' +
+                '\t\t</div>\n' +
+                '\t</div>\n' +
+                '</div>'
+    }, {
+        title: 'Приварка <br>крепежа',
+        content: '<div class="price">\n' +
+                '\t<div class="price__desc" style="background-image: url(/img/bg_privarka.svg)">\n' +
+                '\t\t<div class="block block_padding">\n' +
+                '\t\t\t<div class="price__title">Приварка крепежа</div>\n' +
+                '\t\t\t<p>Компания G-METHOD оказывает услуги ударно-конденсаторной сварки (УКС) для клиентов Санкт-Петербурга, Ленинградской области и других регионов страны.</p>\n' +
+                '\t\t\t<p>Привариваем крепеж на такие металлы, как сталь углеродистая, сталь нержавеющая, алюминий.</p>\n' +
+                '\t\t\t<p>Способ сварки (УКС) наиболее оправдан, когда с лицевой стороны детали не должно быть видно следов от установки крепежа.</p>\n' +
+                '\t\t\t<p>Данный способ сварки широко применяется в производстве корпусных изделий, а также приборостроении так как привариваемые метизы являются элементом заземления.</p>\n' +
+                '\t\t\t<p>Опытные сотрудники нашего предприятия всегда помогут выбрать способ установки крепежа исходя их конструктивных особенностей ваших изделий.</p>\n' +
+                '\t\t\t<div class="price__price"><strong>Цена:</strong> по договоренности</div>\n' +
+                '\t\t\t<div class="desc__bottom">\n' +
+                '\t\t\t\t<button class="btn btn_sm btn_white js-callback">Оставить заявку</button>\n' +
+                '\t\t\t</div>\n' +
+                '\t\t</div>\n' +
+                '\t</div>\n' +
+                '</div>'
+    }, {
+        title: 'Запрессовка <br>крепежа и метизов',
+        content: '<div class="price">\n' +
+                '\t<div class="price__desc" style="background-image: url(/img/bg_zapressovka.svg)">\n' +
+                '\t\t<div class="block block_padding">\n' +
+                '\t\t\t<div class="price__title">Запрессовка крепежа и метизов</div>\n' +
+                '\t\t\t<p><b>Запрессовка крепежа</b> – это современный способ соединения деталей металлоконструкций, при котором крепежные изделия под воздействием приложенной нагрузки запрессовываются в отверстия металлических заготовок образуя надежное соединение.</p>\n' +
+                '\t\t\t<div class="price__subtitle">Описание услуги</div>\n' +
+                '\t\t\t<p>Компания G-METHOD оказывает услуги по запрессовке крепежа и вытяжных резьбовых элементов для клиентов Санкт-Петербурга, Ленинградской области и других регионов страны.</p>\n' +
+                '\t\t\t<p>Наращивая опыт выполнения данной услуги и анализируя потребности заказчиков, в производственном арсенале наших сотрудников огромный выбор запрессовочного крепежа и метизов</p>\n' +
+                '\t\t\t<p>Наиболее часто используемыми видами такого крепежа являются:</p>\n' +
+                '\t\t\t<ul>\n' +
+                '\t\t\t\t<li>Шпильки</li>\n' +
+                '\t\t\t\t<li>Сквозные и глухие втулки</li>\n' +
+                '\t\t\t\t<li>Проходные и непроходные гайки</li>\n' +
+                '\t\t\t\t<li>Плоские гайки заподлицо</li>\n' +
+                '\t\t\t\t<li>Невыпадающие винты разных модификаций и размеров.</li>\n' +
+                '\t\t\t</ul>\n' +
+                '\t\t\t<div class="price__price"><strong>Цена:</strong> по договоренности</div>\n' +
+                '\t\t\t<div class="desc__bottom">\n' +
+                '\t\t\t\t<button class="btn btn_sm btn_white js-callback">Оставить заявку</button>\n' +
+                '\t\t\t</div>\n' +
+                '\t\t</div>\n' +
+                '\t</div>\n' +
+                '</div>'
+    }, {
+        title: 'Токарные <br>работы',
+        content: '<div class="price">\n' +
+                '\t<div class="price__desc" style="background-image: url(/img/bg_tokarnye.svg)">\n' +
+                '\t\t<div class="block block_padding">\n' +
+                '\t\t\t<div class="price__title">Токарная обработка</div>\n' +
+                '\t\t\t<p><b>Токарная обработка</b> – это механическая обработка резанием наружных, внутренних цилиндрических и конических поверхностей заготовки путем последовательного снятия слоев материала.</p>\n' +
+                '\t\t\t<div class="price__subtitle">Описание услуги</div>\n' +
+                '\t\t\t<p>Услуга выполняется на новых современных многозадачных токарных станках от производителя MAZAK. Возможности данных станков под управлением наших высококвалифицированных специалистов позволяют изготавливать детали повышенной сложности.</p>\n' +
+                '\t\t\t<p>Мы выполняем обработку всех металлов и сплавов, а также не металлических материалов. Высокая производительность оборудования позволяет решать самые сложные задачи в минимальные сроки и по доступным ценам.</p>\n' +
+                '\t\t\t<p>Выполняем такие виды токарной обработки металла как:</p>\n' +
+                '\t\t\t<ul>\n' +
+                '\t\t\t\t<li>Обработка наружных и внутренних цилиндрических поверхностей.</li>\n' +
+                '\t\t\t\t<li>Обработка наружных и внутренних конических поверхностей.</li>\n' +
+                '\t\t\t\t<li>Обработка фасонных поверхностей</li>\n' +
+                '\t\t\t\t<li>Точение канавок, пазов, уступов, торцевание и отрезка заготовок.</li>\n' +
+                '\t\t\t\t<li>Накатка рифления.</li>\n' +
+                '\t\t\t\t<li>Нарезание наружной и внутренней резьбы.</li>\n' +
+                '\t\t\t\t<li>Сверление зенкерование, развертка отверстий.</li>\n' +
+                '\t\t\t</ul>\n' +
+                '\t\t\t<p>Данный тип механообработки является наиболее распостраненным для изготовления деталей типа тел вращения, которые широко применяются в различных отраслях промышленности.</p>\n' +
+                '\t\t\t<p>Наиболее распространенные примеры таких деталей это - валы, диски, оси, фланцы, втулки, гайки, муфты и т.д.</p>\n' +
+                '\t\t\t<div class="price__price"><strong>Цена:</strong> от 2000 руб.</div>\n' +
+                '\t\t\t<div class="desc__bottom">\n' +
+                '\t\t\t\t<button class="btn btn_sm btn_white js-callback">Оставить заявку</button>\n' +
+                '\t\t\t</div>\n' +
+                '\t\t</div>\n' +
+                '\t</div>\n' +
+                '</div>'
+    }, {
+        title: 'Фрезерные <br>работы',
+        content: '<div class="price">\n' +
+                '\t<div class="price__desc" style="background-image: url(/img/bg_frezernye.svg)">\n' +
+                '\t\t<div class="block block_padding">\n' +
+                '\t\t\t<div class="price__title">Фрезерные работы</div>\n' +
+                '\t\t\t<p><b>Фрезерная обработка</b> – это механическая обработка резанием заготовки, при которой режущий инструмент совершает вращательное движение последовательно снимая слои материала с обрабатываемой плоскости.</p>\n' +
+                '\t\t\t<div class="price__subtitle">Описание услуги</div>\n' +
+                '\t\t\t<p>Услуга выполняется на новых современных фрезерно-обрабатывающих центрах от производителя HAAS. Технические возможности наших обрабатывающих центров позволяют изготавливать как крупногабаритные, так и небольшие детали. Единственно что остаётся неизменным это высочайшая точность и безупречное качество обработки.</p>\n' +
+                '\t\t\t<p>Мы выполняем обработку всех металлов и сплавов, а также не металлических материалов. Благодаря высокой производительности нашего оборудования и огромному опыту сотрудников, мы поддерживаем доступные цены.</p>\n' +
+                '\t\t\t<p>Кроме того, в производственном оснащении наших специалистов огромный выбор режущего инструмента, что позволяет максимально технологично решать даже самые сложные задачи, поставленные перед нами заказчиком.</p>\n' +
+                '\t\t\t<p>Выполняем такие виды фрезерной обработки металла как:</p>\n' +
+                '\t\t\t<ul>\n' +
+                '\t\t\t\t<li>Вертикально-фрезерная</li>\n' +
+                '\t\t\t\t<li>Горизонтально-фрезерная</li>\n' +
+                '\t\t\t</ul>\n' +
+                '\t\t\t<p>Данные виды фрезерной обработки являются наиболее распространенными, востребованными и широко применяемыми в различных отраслях промышленности</p>\n' +
+                '\t\t\t<div class="price__price"><strong>Цена:</strong> от 2000 руб.</div>\n' +
+                '\t\t\t<div class="desc__bottom">\n' +
+                '\t\t\t\t<button class="btn btn_sm btn_white js-callback">Оставить заявку</button>\n' +
+                '\t\t\t</div>\n' +
+                '\t\t</div>\n' +
+                '\t</div>\n' +
+                '</div>'
+    }, {
+        title: 'Обработка <br>не металлических материалов',
+        content: '<div class="price">\n' +
+                '\t<div class="price__desc" style="background-image: url(/img/bg_nemetall.svg)">\n' +
+                '\t\t<div class="block block_padding">\n' +
+                '\t\t\t<div class="price__title">Обработка не металлических материалов</div>\n' +
+                '\t\t\t<p>Компания G-METHOD оказывает услуги по обработке не металлических материалов для клиентов Санкт-Петербурга, Ленинградской области и других регионов страны.</p>\n' +
+                '\t\t\t<p>Большой станочный парк как универсальных станков, так и станков с числовым программным управлением (ЧПУ) позволяет нам решать самые сложные задачи в минимальные сроки и по доступным ценам.</p>\n' +
+                '\t\t\t<p>Выполняем такие виды работ по обработке не металлических материалов как:</p>\n' +
+                '\t\t\t<ul>\n' +
+                '\t\t\t\t<li>Раскрой</li>\n' +
+                '\t\t\t\t<li>Токарная обработка</li>\n' +
+                '\t\t\t\t<li>Фрезерная обработка</li>\n' +
+                '\t\t\t\t<li>Слесарные работы</li>\n' +
+                '\t\t\t\t<li>Сборка</li>\n' +
+                '\t\t\t</ul>\n' +
+                '\t\t\t<p>Выполняем обработку таких материалов как:</p>\n' +
+                '\t\t\t<ul>\n' +
+                '\t\t\t\t<li>Капролон</li>\n' +
+                '\t\t\t\t<li>Фторопласт</li>\n' +
+                '\t\t\t\t<li>Текстолит</li>\n' +
+                '\t\t\t\t<li>Стеклотекстолит</li>\n' +
+                '\t\t\t\t<li>Гетинакс</li>\n' +
+                '\t\t\t\t<li>Оргстекло</li>\n' +
+                '\t\t\t\t<li>Резина</li>\n' +
+                '\t\t\t</ul>\n' +
+                '\t\t\t<div class="price__price"><strong>Цена:</strong> от 2000 руб.</div>\n' +
+                '\t\t\t<div class="desc__bottom">\n' +
+                '\t\t\t\t<button class="btn btn_sm btn_white js-callback">Оставить заявку</button>\n' +
+                '\t\t\t</div>\n' +
+                '\t\t</div>\n' +
+                '\t</div>\n' +
+                '</div>'
+    }, {
+        title: 'Слесарные работы',
+        content: '<div class="price">\n' +
+                '\t<div class="price__desc" style="background-image: url(/img/bg_slesarnye.svg)">\n' +
+                '\t\t<div class="block block_padding">\n' +
+                '\t\t\t<div class="price__title">Слесарные работы</div>\n' +
+                '\t\t\t<p><b>Слесарные работы</b> – это комплекс технологических операций по обработке металла находящегося в холодном состоянии с помощью оборудования и ручных слесарных инструментов.</p>\n' +
+                '\t\t\t<div class="price__subtitle">Описание услуги</div>\n' +
+                '\t\t\t<p>Компания G-METHOD оказывает услуги слесарных работ для клиентов Санкт-Петербурга, Ленинградской области и других регионов страны.</p>\n' +
+                '\t\t\t<p>Квалифицированные специалисты нашего предприятия, имеющие многолетний опыт работы с сфере металлообработки выполнят услуги по доведению деталей, механизмов до готовности и их наладку.</p>\n' +
+                '\t\t\t<p>Выполняем такие виды слесарных работ как:</p>\n' +
+                '\t\t\t<ul>\n' +
+                '\t\t\t\t<li>Разметка</li>\n' +
+                '\t\t\t\t<li>Сверление отверстий</li>\n' +
+                '\t\t\t\t<li>Нарезание резьбы</li>\n' +
+                '\t\t\t\t<li>Клепка</li>\n' +
+                '\t\t\t\t<li>Шабрение</li>\n' +
+                '\t\t\t\t<li>Притирка</li>\n' +
+                '\t\t\t\t<li>Запрессовка деталей</li>\n' +
+                '\t\t\t</ul>\n' +
+                '\t\t\t<div class="price__price"><strong>Цена:</strong> от 2000 руб.</div>\n' +
+                '\t\t\t<div class="desc__bottom">\n' +
+                '\t\t\t\t<button class="btn btn_sm btn_white js-callback">Оставить заявку</button>\n' +
+                '\t\t\t</div>\n' +
+                '\t\t</div>\n' +
+                '\t</div>\n' +
+                '</div>'
+    }, {
+        title: 'Нанесение надписей, гравировка',
+        content: '<div class="price">\n' +
+                '\t<div class="price__desc" style="background-image: url(/img/bg_gravirovka.svg)">\n' +
+                '\t\t<div class="block block_padding">\n' +
+                '\t\t\t<div class="price__title">Нанесение надписей, гравировка</div>\n' +
+                '\t\t\t<p><b>Лазерная гравировка металла</b> – это способ нанесения маркировки, изображения на поверхность металла путем воздействия лазерного луча на заготовку.</p>\n' +
+                '\t\t\t<p>Данный способ гравировки является более современной и технологичной альтернативой таким способам нанесения как механическая гравировка, печать и тиснение.</p>\n' +
+                '\t\t\t<div class="price__subtitle">Описание услуги</div>\n' +
+                '\t\t\t<p>Компания G-METHOD оказывает услуги по лазерной гравировке металла для клиентов Санкт-Петербурга, Ленинградской области и других регионов страны.</p>\n' +
+                '\t\t\t<p>В нашем производственном оснащении современные лазерные гравировальные станки, имеющие высокую скорость работы, отличную точность и качество нанесения гравировки на металл.</p>\n' +
+                '\t\t\t<p>В совокупности все эти факторы позволяют нам качественно, быстро и по доступным ценам решать задачи наших заказчиков.</p>\n' +
+                '\t\t\t<p>Выполняем лазерную гравировку таких металлов как:</p>\n' +
+                '\t\t\t<ul>\n' +
+                '\t\t\t\t<li>Черная сталь</li>\n' +
+                '\t\t\t\t<li>Нержавеющая сталь</li>\n' +
+                '\t\t\t\t<li>Оцинкованная сталь</li>\n' +
+                '\t\t\t\t<li>Алюминий</li>\n' +
+                '\t\t\t\t<li>Анодированный алюминий</li>\n' +
+                '\t\t\t\t<li>Латунь</li>\n' +
+                '\t\t\t\t<li>Титан</li>\n' +
+                '\t\t\t</ul>\n' +
+                '\t\t\t<p>Получен большой опыт гравировки таких деталей как:</p>\n' +
+                '\t\t\t<ul>\n' +
+                '\t\t\t\t<li>Приборные панели</li>\n' +
+                '\t\t\t\t<li>Корпуса электрооборудования</li>\n' +
+                '\t\t\t\t<li>Фирменные таблички, шильдики</li>\n' +
+                '\t\t\t</ul>\n' +
+                '\t\t\t<div class="price__price"><strong>Цена:</strong> от 2000 руб.</div>\n' +
+                '\t\t\t<div class="desc__bottom">\n' +
+                '\t\t\t\t<button class="btn btn_sm btn_white js-callback">Оставить заявку</button>\n' +
+                '\t\t\t</div>\n' +
+                '\t\t</div>\n' +
+                '\t</div>\n' +
+                '</div>'
+    }, {
+        title: 'Порошковая <br>окраска металла',
+        content: '<div class="price">\n' +
+                '\t<div class="price__desc" style="background-image: url(/img/bg_okraska.svg)">\n' +
+                '\t\t<div class="block block_padding">\n' +
+                '\t\t\t<div class="price__title">Порошковая окраска металла</div>\n' +
+                '\t\t\t<p><b>Порошковая окраска металла</b> – это технология нанесения покрытия на металл с высокими защитно-декоративными свойствами, отвечающими всем требованиям защиты от коррозии сегодняшнего дня.</p>\n' +
+                '\t\t\t<p>Данная технология окрашивания является более технологичной и современной альтернативой жидким лакокрасочным материалам.</p>\n' +
+                '\t\t\t<p>Данный способ гравировки является более современной и технологичной альтернативой таким способам нанесения как механическая гравировка, печать и тиснение.</p>\n' +
+                '\t\t\t<div class="price__subtitle">Описание услуги</div>\n' +
+                '\t\t\t<p>Компания G-METHOD оказывает услуги по порошковой окраске металла для клиентов Санкт-Петербурга, Ленинградской области и других регионов страны.</p>\n' +
+                '\t\t\t<p>Услуга выполняется на новой современной высокопроизводительной линии конвейерного типа от производителя TAISS. Технические возможности данного покрасочного оборудования позволяют нам поддерживать отличное качество покраски, высокую скорость работы и как следствие доступные цены.</p>\n' +
+                '\t\t\t<p>Мы предлагаем нашим заказчикам огромный выбор красок палитры RAL и различные фактуры поверхности покрытия.</p>\n' +
+                '\t\t\t<p>Наиболее и часто используемыми фактурами покрытий являются:</p>\n' +
+                '\t\t\t<ul>\n' +
+                '\t\t\t\t<li>Глянец</li>\n' +
+                '\t\t\t\t<li>Матовая поверхность</li>\n' +
+                '\t\t\t\t<li>МУАР – шероховатая поверхность с мелкозернистой структурой</li>\n' +
+                '\t\t\t\t<li>Шагрень – шероховатая поверхность с крупнозернистой структурой позволяющая скрыть незначительные дефекты материала.</li>\n' +
+                '\t\t\t</ul>\n' +
+                '\t\t\t<p>Квалифицированные сотрудники нашего покрасочного цеха строго следят за всеми необходимыми технологическими параметрами работы оборудования для получения безупречного качества нанесения покрытия на металл.</p>\n' +
+                '\t\t\t<div class="price__price"><strong>Цена:</strong> от 90 руб./метр</div>\n' +
+                '\t\t\t<div class="desc__bottom">\n' +
+                '\t\t\t\t<button class="btn btn_sm btn_white js-callback">Оставить заявку</button>\n' +
+                '\t\t\t</div>\n' +
+                '\t\t</div>\n' +
+                '\t</div>\n' +
+                '</div>'
+    }, {
+        title: 'Нанесение гальванических покрытий',
+        content: '<div class="price">\n' +
+                '\t<div class="price__desc" style="background-image: url(/img/bg_galvanika.svg)">\n' +
+                '\t\t<div class="block block_padding">\n' +
+                '\t\t\t<div class="price__title">Нанесение гальванических покрытий</div>\n' +
+                '\t\t\t<p><b>Гальваническое покрытие</b> – это  электрохимический метод обработки материалов, который заключается в нанесении на металлическую деталь тонкой поверхностной пленки из другого металла для защиты от коррозии и придания детали защитно-декоративных свойств.</p>\n' +
+                '\t\t\t<div class="price__subtitle">Описание услуги</div>\n' +
+                '\t\t\t<p>Компания G-METHOD оказывает услуги по нанесению гальванических покрытий на металлы для клиентов Санкт-Петербурга, Ленинградской области и других регионов страны.</p>\n' +
+                '\t\t\t<p>Мы предлагаем нашим заказчикам все виды гальванических покрытий металлов по ГОСТ 9.306-85</p>\n' +
+                '\t\t\t<p>Наиболее востребованными и часто применяемыми видами таких покрытий являются:</p>\n' +
+                '\t\t\t<ul>\n' +
+                '\t\t\t\t<li>Цинковое</li>\n' +
+                '\t\t\t\t<li>Никелевое</li>\n' +
+                '\t\t\t\t<li>Кадмиевое</li>\n' +
+                '\t\t\t\t<li>Хромовое</li>\n' +
+                '\t\t\t\t<li>Анодное</li>\n' +
+                '\t\t\t\t<li>Оксидное</li>\n' +
+                '\t\t\t\t<li>Фосфатное</li>\n' +
+                '\t\t\t</ul>\n' +
+                '\t\t\t<p>Опытные сотрудники нашего предприятия всегда помогут выбрать наиболее подходящее защитное покрытие исходя из конструктивных особенностей и условий эксплуатации ваших изделий.</p>\n' +
+                '\t\t\t<div class="price__price"><strong>Цена:</strong> по договоренности</div>\n' +
+                '\t\t\t<div class="desc__bottom">\n' +
+                '\t\t\t\t<button class="btn btn_sm btn_white js-callback">Оставить заявку</button>\n' +
+                '\t\t\t</div>\n' +
+                '\t\t</div>\n' +
+                '\t</div>\n' +
+                '</div>'
+    }, {
+        title: 'Сборка металлоизделий',
+        content: '<div class="price">\n' +
+                '\t<div class="price__desc " style="background-image: url(/img/bg_sborka.svg)">\n' +
+                '\t\t<div class="block block_padding">\n' +
+                '\t\t\t<div class="price__title">Сборка металлоизделий</div>\n' +
+                '\t\t\t<p><b>Сборка металлоизделий</b> – это завершающий этап всего производственного цикла металлообработки, из предварительно изготовленный деталей собирают изделия, металлоконструкции выполняют их наладку.</p>\n' +
+                '\t\t\t<div class="price__subtitle">Описание услуги</div>\n' +
+                '\t\t\t<p>Компания G-METHOD оказывает услуги по сборке металлоизделий и металлоконструкций собственного производства для клиентов Санкт-Петербурга, Ленинградской области и других регионов страны.</p>\n' +
+                '\t\t\t<p>После изготовления деталей возникает потребность сборки и наладки конечных изделий, опытные специалисты нашего предприятия выполнят данные виды работ с соблюдением всех требований технологического процесса и конструкторской документации заказчика.</p>\n' +
+                '\t\t\t<p>Получен большой опыт сборки металлоизделий и механизмов различного назначения.</p>\n' +
+                '\t\t\t<p>При выполнении сборки и после ее окончания изделия проходят межоперационный и выходной контроль качества на соответствие всем требованиям технологической и конструкторской документации.</p>\n' +
+                '\t\t\t<div class="price__price"><strong>Цена:</strong> от 2000 руб.</div>\n' +
+                '\t\t\t<div class="desc__bottom">\n' +
+                '\t\t\t\t<button class="btn btn_sm btn_white js-callback">Оставить заявку</button>\n' +
+                '\t\t\t</div>\n' +
+                '\t\t</div>\n' +
+                '\t</div>\n' +
+                '</div>'
+    }]
+ul.services__list
+    each entry, index in services
+        li.services__entry
+            .entry__img
+                img(src='/img/service_' + (index + 1) + '.svg' alt='')
+            a(href='#')!=entry.title
+            .entry__content!=entry.content
