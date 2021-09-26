@@ -132,7 +132,7 @@ $(function () {
 
     $('.form').formsController({
         validationSuccess: function() {
-            let $form = $this;
+            let $form = $(this);
             let action = $form.data('url');
             let data = new FormData($('.form')[0]);
             data.append('name', $form.find('input[name="name"]').val());
@@ -152,7 +152,9 @@ $(function () {
                 method: 'POST',
                 url: action,
                 data: data,
+                processData: false,
                 success: function(response) {
+                    console.log('success', response);
                     $loading.hide();
                     if (response.success) {
                         $form.find('.form__error').hide();
@@ -163,6 +165,7 @@ $(function () {
                     }
                 },
                 error: function(response) {
+                    console.log('error', response);
                     $loading.hide();
                     $form
                         .find('.form__error')
@@ -175,7 +178,7 @@ $(function () {
 
     $('#popup-callback .formsController').formsController({
         validationSuccess: function() {
-            let $form = $this;
+            let $form = $(this);
             let action = $form.data('url');
             let data = new FormData($('#popup-callback .formsController')[0]);
             data.append('name', $form.find('input[name="name"]').val());
@@ -195,7 +198,9 @@ $(function () {
                 method: 'POST',
                 url: action,
                 data: data,
+                processData: false,
                 success: function(response) {
+                    console.log('success', response);
                     $loading.hide();
                     if (response.success) {
                         $form.find('.form__error').hide();
@@ -207,6 +212,7 @@ $(function () {
                     }
                 },
                 error: function(response) {
+                    console.log('error', response);
                     $loading.hide();
                     $form
                         .find('.form__error')

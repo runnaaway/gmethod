@@ -1,4 +1,5 @@
 extends ../../base
+
 block defaultVars
     -
         var why = [{
@@ -83,17 +84,7 @@ block content
         .block.block_padding
             h2.main-title Услуги компании
             p.services__desc Вам не придется заказывать отдельные услуги в разных компаниях. Все свои идеи вы сможете реализовать прямо здесь, потому что мы выполняем полностью все виды услуг, которые могут понадобиться клиенту. Расчет стоимости услуг производится по конструкторской документации, предоставленной заказчиком.
-            ul.services__list
-                each entry, index in [['Лазерная <br>резка металла', '/price/lazernaya_rezka.html'], ['Лазерная 3D <br>резка труб', '/price/lazernaya_3d_rezka.html'], ['Гидроабразивная <br>резка', '/price/gidroabraziv.html'], ['Координатно-пробивные работы', '/price/koordinat.html'], ['Гибка металла', '/price/gibka.html'], ['Сварка', '/price/svarka.html'], ['Приварка <br>крепежа', '/price/privarka.html'], ['Запрессовка <br>крепежа и метизов', '/price/zapressovka.html'], ['Токарные <br>работы', '/price/tokarnye.html'],]
-                    li.services__entry
-                        .entry__img
-                            img(src='/img/service_0' + (index + 1) + '.svg' alt='')
-                        a(href='#' data-url=entry[1])!=entry[0]
-                each entry, index in [['Фрезерные <br>работы', '/price/frezernye.html'], ['Обработка <br>не металлических материалов', '/price/nemetall.html'], ['Слесарные работы', '/price/slesarnye.html'], ['Нанесение надписей, гравировка', '/price/gravirovka.html'], ['Порошковая <br>окраска металла', '/price/okraska.html'], ['Нанесение гальванических покрытий', '/price/galvanika.html'], ['Сборка металлоизделий', '/price/sborka.html']]
-                    li.services__entry
-                        .entry__img
-                            img(src='img/service_' + (index + 10) + '.svg' alt='')
-                        a(href='#' data-url=entry[1])!=entry[0]
+            include ../../components/services
     .why#why
         .block.block_padding
             .why__title

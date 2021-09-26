@@ -5,29 +5,13 @@ $(function () {
 
         let $modalContent = $('.modal__content');
 
-        let url = $(this).data('url');
+        let $this = $(this);
 
+        let content = $this.next('.entry__content').html();
 
-        if(url.length > 0) {
-            $.ajax({
-                cache: false,
-                dataType: 'html',
-                method: 'GET',
-                url: url,
-            })
-            .done(function(data) {
-                $(data).appendTo($modalContent);
-                $modalContent.animate({
-                    scrollTop: 0
-                }, 0);
-                $('.modal').addClass('opened');
-                $('html').addClass('modal-opened');
-            })
-            .fail(function(jqXHR) {
-                console.log('error', jqXHR);
-            });
-        }
-
+        $modalContent.html(content)
+        $('.modal').addClass('opened');
+        $('html').addClass('modal-opened');
 
     });
 
